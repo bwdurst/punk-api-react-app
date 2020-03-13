@@ -1,0 +1,32 @@
+.liked {
+border: 2px solid lightgreen;
+}
+
+.notLiked {
+  border: 2px solid grey;
+}
+
+.beerContainer {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  min-height: 250px;
+  width: 100%;
+  max-width: 500px;
+  min-width: 450px;
+  margin: 5px;
+}
+
+.beerContainer * {
+  margin: 5px;
+}
+
+.beerContainer button {
+  margin-left: 10px;
+  height: 50px;
+  min-width: 100px;
+}
+
+.beerContainer img {
+  max-height: 200px;
+}

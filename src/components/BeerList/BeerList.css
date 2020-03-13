@@ -1,0 +1,6 @@
+.BeerList {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  margin: 20px 0;
+}
