@@ -14,7 +14,7 @@ class BeerList extends React.Component {
       })
       .then((data) => {
         this.setState({ beers: data })
-        console.log(this.state.beers);
+        // console.log(this.state.beers);
       });
   }
 
@@ -22,10 +22,7 @@ class BeerList extends React.Component {
     const beers = this.state.beers.map(beer => (
       <Beer
         key={beer.id}
-        name={beer.name}
-        tagline={beer.tagline}
-        description={beer.description}
-        image={beer.image_url}
+        props={beer}
       />
     ))
 
